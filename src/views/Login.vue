@@ -40,6 +40,8 @@
 </template>
 
 <script>
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 export default {
   data () {
     return {
