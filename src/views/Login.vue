@@ -15,13 +15,11 @@
         </div>
       </v-flex>
 
-<!--
       <v-flex mb-4 xs12>
         <div class="ma-4">
           <v-btn large color="success" @click="shareLINE">LINEにシェア</v-btn>
         </div>
       </v-flex>
--->
 
       <!-- Snackbar -->
       <div>
@@ -115,14 +113,14 @@ export default {
       .then(() => {
         console.log('message sent');
         me.showSnackbar("LINEに送信しました")
-/*
+
         // 自動的に閉じる
         setTimeout(()=> {
           liff.closeWindow()
         },
           this.snackbarTimeout
         )
-*/
+
       })
       .catch((err) => {
         console.log('error', err)
